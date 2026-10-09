@@ -1,5 +1,5 @@
 {
-  "name": "claude-code-harness-marketplace",
+  "name": "edunin-harness",
   "metadata": {
     "version": "5.15.0",
     "description": "Marketplace entry for distributing and installing claude-code-harness as a single plugin."

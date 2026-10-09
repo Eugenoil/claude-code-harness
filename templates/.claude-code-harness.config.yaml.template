@@ -103,7 +103,7 @@ writing_lint:
 # Review settings (commit judgment + Codex mode).
 review:
   # Review mode: default (Claude only) or codex (GPT experts delegation).
-  mode: codex
+  mode: default
 
   judgment:
     # Output APPROVE / REQUEST CHANGES / REJECT verdict.
@@ -115,7 +115,7 @@ review:
 
   codex:
     # Enable Codex mode (GPT experts delegation).
-    enabled: true
+    enabled: false
     # Auto-run without confirmation.
     auto: true
     # Individual expert toggles.
